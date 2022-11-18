@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Generate Directory Listings
-        uses: oglicensing/github-pages-directory-listing@v2.0.1
+        uses: oglicensing/github-pages-directory-listing@v2.0.2
         with:
           FOLDER: data
 
