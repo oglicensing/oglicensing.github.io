@@ -1,0 +1,35 @@
+RECIPE NAME: digi-sc-firmware
+VERSION: 1.7.1.2
+LICENSE: Proprietary
+FILES: mx8x-ccimx8x-scfw-tcm.bin-1GB_16bit mx8x-ccimx8x-scfw-tcm.bin-1GB_32bit mx8x-ccimx8x-scfw-tcm.bin-512MB_16bit mx8x-ccimx8x-scfw-tcm.bin-2GB_32bit
+
+RECIPE NAME: imx-atf
+VERSION: 2.2+gitAUTOINC+f1d7187f26
+LICENSE: BSD-3-Clause
+FILES: bl31-imx8qx.bin
+
+RECIPE NAME: imx-boot
+VERSION: 1.0
+LICENSE: GPLv2
+FILES: imx-boot-ccimx8x-sbc-express-B0-512MB_16bit.bin-flash imx-boot-ccimx8x-sbc-express-B0-1GB_32bit.bin-flash_regression_linux_m4 imx-boot-ccimx8x-sbc-express-C0-512MB_16bit.bin-flash_regression_linux_m4 imx-boot-ccimx8x-sbc-express-C0-2GB_32bit.bin-flash imx-boot-ccimx8x-sbc-express-C0-512MB_16bit.bin-flash imx-boot-ccimx8x-sbc-express-C0-1GB_16bit.bin-flash_regression_linux_m4 imx-boot-ccimx8x-sbc-express-B0-1GB_16bit.bin-flash_regression_linux_m4 imx-boot-ccimx8x-sbc-express-B0-1GB_16bit.bin-flash imx-boot-ccimx8x-sbc-express-B0-1GB_32bit.bin-flash imx-boot-ccimx8x-sbc-express-B0-2GB_32bit.bin-flash imx-boot-ccimx8x-sbc-express-B0-2GB_32bit.bin-flash_regression_linux_m4 imx-boot-ccimx8x-sbc-express-C0-1GB_32bit.bin-flash_regression_linux_m4 imx-boot-ccimx8x-sbc-express-C0-1GB_16bit.bin-flash imx-boot-ccimx8x-sbc-express-C0-1GB_32bit.bin-flash imx-boot-ccimx8x-sbc-express-C0-2GB_32bit.bin-flash_regression_linux_m4 imx-boot-ccimx8x-sbc-express-B0-512MB_16bit.bin-flash_regression_linux_m4 mkimage_imx8 mkimage-flash_regression_linux_m4.log mkimage-flash.log mx8qxb0-ahab-container.img soc.mak mx8qxc0-ahab-container.img m4_image.bin
+
+RECIPE NAME: imx-m4-demos
+VERSION: 2.8.0.1
+LICENSE: Proprietary
+FILES: imx8qx_m4_TCM_power_mode_switch.bin imx8qx_m4_TCM_hello_world.bin imx8qx_m4_TCM_rpmsg_lite_str_echo_rtos.bin imx8qx_m4_TCM_rpmsg_lite_pingpong_rtos_linux_remote.bin
+
+RECIPE NAME: imx-seco
+VERSION: 3.7.5
+LICENSE: Proprietary
+FILES: mx8qxb0-ahab-container.img mx8qxc0-ahab-container.img
+
+RECIPE NAME: linux-dey
+VERSION: 5.4
+LICENSE: GPLv2
+FILES: _ov_som_bt_ccimx8x--5.4-r0.2-ccimx8x-sbc-express-20241004092527.dtbo _ov_som_quad_ccimx8x--5.4-r0.2-ccimx8x-sbc-express-20241004092527.dtbo Image.gz--5.4-r0.2-ccimx8x-sbc-express-20241004092527.bin ccimx8x-sbc-express-disp-7--5.4-r0.2-ccimx8x-sbc-express-20241004092527.dtb ccimx8x-sbc-express--5.4-r0.2-ccimx8x-sbc-express-20241004092527.dtb modules--5.4-r0.2-ccimx8x-sbc-express-20241004092527.tgz _ov_som_wifi_ccimx8x--5.4-r0.2-ccimx8x-sbc-express-20241004092527.dtbo ccimx8x-sbc-express-disp-5--5.4-r0.2-ccimx8x-sbc-express-20241004092527.dtb
+
+RECIPE NAME: u-boot-dey
+VERSION: 2020.04
+LICENSE: GPLv2+
+FILES: install_linux_fw_usb.scr install_linux_fw_sd.scr boot.scr u-boot-ccimx8x_sbc_express1GB-2020.04-r0.bin u-boot-ccimx8x_sbc_express2GB-2020.04-r0.bin u-boot-ccimx8x_sbc_express512MB-2020.04-r0.bin
+
